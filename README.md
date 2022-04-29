@@ -1,24 +1,21 @@
 # Estudando Git e Markdown
-
 ![Logo do Git](Git-Logo.png) 
 ![Logo da Linguagem Markdown](Markdown-Logo.png)
 
 # Lista de marcações em Markdown 
-
 Utilize duas crases `` para destacar um código.
 `System.out.print("Hello World!");`
 
 Utilize `---` ou `***` para criar uma linha horizontal.
 ---
 
-Para destacar um trecho de código, abra três crases ```, escreva o código e feche com três crases.
+Para destacar um trecho de código, abra três crases ```, escreva o código e feche com três crases. Você ainda pode deixar mais específico o trecho do código, especificando a linguagem que está sendo utilizada após as três primeiras crases.
 
-```
+```javascript
 mundialPalmeiras == true ? 'Não tem mundial' : 'Tem mundial'
 ```
 
 ## Titulação
-
 `#`
 # Título de nível 1
 `##` 
@@ -29,7 +26,6 @@ mundialPalmeiras == true ? 'Não tem mundial' : 'Tem mundial'
 #### Título de nível 4
 
 ## Ênfase
-
 **Negrito**
 `**Palavra**` ou `__Palavra__`
 
@@ -40,7 +36,6 @@ mundialPalmeiras == true ? 'Não tem mundial' : 'Tem mundial'
 `~Palavra~`
 
 ## Lista numerada
-
 Para criar uma lista numerada, coloque um número e um `.` em seguida e escreva o item da lista.
 
 ```
@@ -57,7 +52,6 @@ Para criar uma lista numerada, coloque um número e um `.` em seguida e escreva 
 1. Item 3
 
 ## Lista demarcada
-
 Para criar uma lista demarcada, utilize um `*` ou `-` na frente de cada item.
 
 ```
@@ -74,7 +68,6 @@ Para criar uma lista demarcada, utilize um `*` ou `-` na frente de cada item.
 * Item 3
 
 ## Lista de Tarefas
-
 Para criar uma lista de tarefas, utilize `-` de um espaço abra `[` de um espaço e feche `]`, de um espaço e escreva a tarefa. Para marcar a tarefa como finalizada coloque um `x` dentro do colchete da tarefa desejada.
 
 
@@ -84,7 +77,6 @@ Para criar uma lista de tarefas, utilize `-` de um espaço abra `[` de um espaç
 - [x] Tarefa 4
 
 ## Links
-
 Texto âncora, dentro do colchete escreva o texto e dentro do parentese escreva a URL, `[]()`.
 [Acesse meu GitHub](https://github.com/vinicius-lv)
 
@@ -92,7 +84,6 @@ Link direto, escreva a URL dentro dos símbolos de menor e maior, `<>`.
 <https://github.com/vinicius-lv>
 
 ## Tabelas
-
 Para criar uma tabela, escreva os nomes dos títulos das colunas e divida entre barras verticais.
 `Coluna 1 | Coluna 2 | Coluna 3`
 
@@ -103,7 +94,6 @@ Por último, escreva o conteúdo de cada coluna, separando por barras verticais.
 `Info 1 | Info 2 | Info 3`
 
 ### Visualização da tabela no final
-
 Coluna 1 | Coluna 2 | Coluna 3
 ---|---|---
 Info 1 | Info 1 | Info 1
@@ -111,5 +101,29 @@ Info 2 | Info 2 | Info 2
 Info 3 | Info 3 | Info 3
 Info 4 | Info 4 | Info 4
 
+## Imagens
+Para adicionar utilize o seguinte padrão `![]()`, dentro do colchete escreva a descrição da imagem e dentro do parentese escreva a URL da imagem.
 
+`![Descrição da imagem](https://imagems.com/doguinho.png)`
 
+## Emojis
+Para colocar um emoji no seu texto, coloque abra `:` escreva o nome do emoji e feche com `:`.
+Repositório com a lista dos emojis: <https://github.com/ikatyang/emoji-cheat-sheet>.
+
+```
+:smile:
+:vulcan_salute:
+:alien:
+```
+:smile:
+:vulcan_salute:
+:alien:
+
+## Citação (Quote)
+Para criar uma citação, basta adicionar um sinal de maior `>` na frente da frase.
+
+```
+> Olá, mundo!
+```
+
+> Olá, mundo!

@@ -3,7 +3,7 @@
 
 Repositório para ajudar com o básico de markdown.
 
-Clique no link do sumário para ir a sessão que deseja aprender.
+Clique em algum link do sumário para ir a sessão que deseja se inteirar.
 
 ## Sumário
 1. [Titulação](#titulacao)
@@ -11,6 +11,13 @@ Clique no link do sumário para ir a sessão que deseja aprender.
 1. [Lista ordenada](#lista-ordenada)
 1. [Lista desordenada](#lista-desordenada)
 1. [Lista de tarefas](#lista-tarefas)
+1. [Links](#links)
+1. [Tabelas](#tabelas)
+1. [Imagens](#imagens) 
+1. [Emojis](#emojis)
+1. [Citação (Blockquote)](#quote)
+1. [Destacar um trecho de código](#codigo)
+1. [Linha horizontal](#linha)
 
 ---
 ---
@@ -127,22 +134,37 @@ Para criar uma lista de tarefas, utilize `-` de um espaço abra `[` de um espaç
 - [ ] Tarefa 3
 - [x] Tarefa 4
 
-## Links
-Texto âncora, dentro do colchete escreva o texto e dentro do parentese escreva a URL, `[]()`.
+---
+---
+
+<a id="links"></a>
+# Links
+Texto âncora, dentro do colchete escreva o texto e dentro do parentese escreva a URL, exemplo: 
+
+`[Acesse meu GitHub](https://github.com/vinicius-lv)`
 [Acesse meu GitHub](https://github.com/vinicius-lv)
 
-Link direto, escreva a URL dentro dos símbolos de menor e maior, `<>`.
+Link direto, escreva a URL dentro dos símbolos de menor e maior, exemplo:
+
+`<https://github.com/vinicius-lv>`.
 <https://github.com/vinicius-lv>
 
-## Tabelas
+---
+---
+
+<a id="tabelas"></a>
+# Tabelas
 Para criar uma tabela, escreva os nomes dos títulos das colunas e divida entre barras verticais.
-`Coluna 1 | Coluna 2 | Coluna 3`
+
+`Coluna 1 | Coluna 2 | Coluna 3`.
 
 Separa o título do conteúdo utilizando três hifens para descrever a coluna e separa com uma barra vertical.
-`---|---|---`
+
+`---|---|---`.
 
 Por último, escreva o conteúdo de cada coluna, separando por barras verticais.
-`Info 1 | Info 2 | Info 3`
+
+`Info 1 | Info 2 | Info 3`.
 
 ### Visualização da tabela no final
 Coluna 1 | Coluna 2 | Coluna 3
@@ -152,41 +174,76 @@ Info 2 | Info 2 | Info 2
 Info 3 | Info 3 | Info 3
 Info 4 | Info 4 | Info 4
 
-## Imagens
-Para adicionar utilize o seguinte padrão `![]()`, dentro do colchete escreva a descrição da imagem e dentro do parentese escreva a URL da imagem.
+---
+---
+
+<a id="imagens"></a>
+# Imagens
+Para adicionar uma imagem utilize o seguinte padrão `![]()`, dentro do colchete escreva a descrição da imagem e dentro do parentese escreva a URL da imagem como no exemplo abaixo.
 
 `![Descrição da imagem](https://imagems.com/doguinho.png)`
 
-## Emojis
-Para colocar um emoji no seu texto, coloque abra `:` escreva o nome do emoji e feche com `:`.
-Repositório com a lista dos emojis: <https://github.com/ikatyang/emoji-cheat-sheet>.
-
-```
-:smile:
-:vulcan_salute:
-:alien:
-```
-:smile:
-:vulcan_salute:
-:alien:
-
-## Citação (Quote)
-Para criar uma citação, basta adicionar um sinal de maior `>` na frente da frase.
-
-```
-> Olá, mundo!
-```
-
-> Olá, mundo!
-
-Utilize duas crases `` para destacar um código.
-`System.out.print("Hello World!");`
-
-Utilize `---` ou `***` para criar uma linha horizontal.
+---
 ---
 
-Para destacar um trecho de código, abra três crases ```, escreva o código e feche com três crases. Você ainda pode deixar mais específico o trecho do código, especificando a linguagem que está sendo utilizada após as três primeiras crases.
+<a id="emojis"></a>
+# Emojis
+Para adicionar um emoji ao seu texto no GitHub, utilize o padrão `:nome-emoji:`.
+Repositório com a lista dos emojis: <https://github.com/ikatyang/emoji-cheat-sheet>.
+
+Exemplo:
+
+```
+:smile:
+:vulcan_salute:
+:alien:
+```
+
+Visualização dos emojis:
+
+:smile:
+:vulcan_salute:
+:alien:
+
+---
+---
+
+<a id="quote"></a>
+# Citação (Blockquote)
+Para criar uma citação, basta adicionar um sinal de maior `>` na frente da frase.
+
+Exemplo: 
+
+```
+> Developers developers developers, Steve Ballmer.
+```
+
+> Developers developers developers, Steve Ballmer.
+
+---
+---
+
+<a id="codigo"></a>
+# Destacar um código
+Para destacar uma linha de código abra com uma crase escreva a linha e feche com outra crase.
+
+Exemplo:
+
+`System.out.print("Hello World!");`
+
+Para destacar um trecho de código, abra três crases, escreva o código e feche com três crases. Você ainda pode especificar qual linguagem está sendo utilizada após as três primeiras crases, basta escrever o nome da linguagem.
 
 ```javascript
 mundialPalmeiras == true ? 'Não tem mundial' : 'Tem mundial'
 ```
+
+---
+---
+
+<a id="linha"></a>
+# Linha horizontal
+Utilize `---` ou `***` para criar uma linha horizontal.
+
+Exemplo:
+
+---

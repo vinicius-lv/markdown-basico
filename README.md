@@ -1,5 +1,5 @@
 # Markdown básico
-![Logo da Linguagem Markdown](recursos/Markdown-Logo.png)
+![Logo da Linguagem Markdown](img/Markdown-Logo.png)
 
 Repositório para ajudar com o básico de markdown.
 

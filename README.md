@@ -1,5 +1,5 @@
 # Markdown básico
-![Logo da Linguagem Markdown](Markdown-Logo.png)
+![Logo da Linguagem Markdown](recursos/Markdown-Logo.png)
 
 Repositório para ajudar com o básico de markdown.
 
@@ -181,7 +181,9 @@ Info 4 | Info 4 | Info 4
 # Imagens
 Para adicionar uma imagem utilize o seguinte padrão `![]()`, dentro do colchete escreva a descrição da imagem e dentro do parentese escreva a URL da imagem como no exemplo abaixo.
 
-`![Descrição da imagem](https://imagems.com/doguinho.png)`
+`![Descrição da imagem](imagens/octocat.png)`
+
+![Octocat](img/Octocat.png)
 
 ---
 ---
